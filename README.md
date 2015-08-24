@@ -1,19 +1,23 @@
 ## Build and Install wrk to Ubuntu
 
 Install building tools.
+
 `sudo apt-get install build-essential cmake y`
 
 Now install `wrk` -
 
 First clone it.
+
 `git clone git@github.com:obakfahad/wrk.git`
 
 Then go to the directory
+
 `cd wrk`
 
 Now,
 
 `make`
+
 `sudo cp wrk /usr/local/sbin/`
 
 Done. :)
